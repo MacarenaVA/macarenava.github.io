@@ -4,56 +4,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="16x16"  href="./assets/imgs/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a69ccea1bd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Portafolio Macarena VA</title>
+    <script src="https://kit.fontawesome.com/a69ccea1bd.js" crossorigin="anonymous"></script>
+    <title>Cuppon</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand col-6 ms-3" href="#">
-                <img class="logo" src="./assets/imgs/Logo.png" alt="Logo">
-            </a>
-            <ul class="navbar-nav ms-auto me-auto">
-              <li class="nav-link">
-                <i class="fa-solid fa-house fa-2xl"></i>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-solid fa-user fa-2xl"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa-solid fa-code fa-2xl"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/MacarenaVA"><i class="fa-brands fa-github fa-2xl"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.linkedin.com/in/macarena-villablanca-argote-64991763/"><i class="fa-brands fa-linkedin fa-2xl"></i></a> 
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <header id="inicio" class="text-light text-center py-5 mt-5">
-        <div class="container">
-            <div class="ms-auto col-12 col-md-7 ">
-                <h1 class="display-1 fw-bold my-5">
-                    <br>Macarena<br>
-                </h1>
-                <h2 class="my-5 fw-bolder">
-                    <br>WEB DEVELOPER</br>
-                </h2>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand col-6 ms-3" href="#"><img class="img-fluid w-auto" src="./assets/imgs/Logo.png" alt="logo-white"></a>
+              <button class="navbar-toggler col-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse col-4" id="navbarMenu">
+                <ul class="navbar-nav ms-auto me-5">
+                  <li>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-house fa-2xl"></i></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-user fa-2xl"></i></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-hashtag fa-2xl"></i></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#"><i class="fa-brands fa-github fa-2xl"></i></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+        </nav>
     </header>
+    <section>
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-4 m-0">
+        <div class="col">
+          <article class="card rounded">
+            <img src="./assets/img/cupon-1.jpg" class="card-img-top" alt="cupon-1">
+            <div class="card-body">
+              <h5 class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+              <p class="card-text m-0">Plumones Manolino</p>
+              <p class="adress-text"><i class="fa-sharp fa-solid fa-location-dot"></i> 9191 Avenida Vitacura, Chile</p>
+              <hr>
+              <p class="price-text text-end me-3">$45.990 <strong>$22.990</strong></p>
+            </div>
+          </article>
+        </div>
+        <div class="col">
+          <article class="card rounded">
+            <img src="./assets/img/cupon-2.jpg" class="card-img-top" alt="cupon2">
+            <div class="card-body">
+              <h5 class="card-title">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+              <p class="card-text m-0">V for Vegan</p>
+              <p class="adress-text"><i class="fa-sharp fa-solid fa-location-dot"></i> 777 Jesse Pinkman, Chile</p>
+              <hr>
+              <p class="price-text text-end me-3">$45.990 <strong>$22.990</strong></p>
+            </div>
+          </article>
+        </div>
+        <div class="col">
+          <article class="card rounded">
+            <img src="./assets/img/cupon-3.jpg" class="card-img-top" alt="cupon3">
+            <div class="card-body">
+              <h5 class="card-title">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+              <p class="card-text m-0">Clínica Dental Quijada</p>
+              <p class="adress-text"><i class="fa-sharp fa-solid fa-location-dot"></i> 1342, Blanco Encalada, Chile</p>
+              <hr>
+              <p class="price-text text-end me-3">$45.990 <strong>$22.990</strong></p>
+            </div>
+          </article>
+        </div>
+        <div class="col">
+          <article class="card rounded">
+            <img src="./assets/img/cupon-4.jpg" class="card-img-top" alt="cupon4">
+            <div class="card-body">
+              <h5 class="card-title">Colación para 2 personas + postre (no incluye bebidas)</h5>
+              <p class="card-text m-0">Suricata almacen</p>
+              <p class="adress-text"><i class="fa-sharp fa-solid fa-location-dot"></i> 1071 Miguel Claro, Chile</p>
+              <hr>
+              <p class="price-text text-end me-3">$45.990 <strong>$22.990</strong></p>
+            </div>
+          </article>
+        </div>
+        <div class="col">
+            <article class="card rounded">
+              <img src="./assets/img/cupon-5.jpg" class="card-img-top" alt="cupon4">
+              <div class="card-body">
+                <h5 class="card-title">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+                <p class="card-text m-0">Stukids Centro de Eventos</p>
+              <p class="adress-text"><i class="fa-sharp fa-solid fa-location-dot"></i> 133 El tranque, Chile</p>
+              <hr>
+              <p class="price-text text-end me-3">$45.990 <strong>$22.990</strong></p>
+              </div>
+            </article>
+        </div>
+        <div class="col">
+            <article class="card rounded">
+              <img src="./assets/img/cupon-6.jpg" class="card-img-top" alt="cupon4">
+              <div class="card-body">
+                <h5 class="card-title">San Pedro de Atacama : 1 o 2 noches en alojamiento a elección</h5>
+                <p class="card-text">D-Latam Travel</p>
+              <hr>
+              <p class="price-text text-end me-3">$45.990 <strong>$22.990</strong></p>
+              </div>
+            </article>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="conteiner py-4 px-3 text-center">
+        <h2 class="mb-4">Recibe cupones en tu correo</h2>
+        <form>
+          <div class="row mb-3">
+            <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputname" placeholder="Nombre">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Correo Electrónico">
+            </div>
+          </div>
+          <button type="button" class="btn btn-light">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container p-4 text-center">
+        <img class="mx-auto mb-3" src="./assets/img/logo-black.png" alt="logo-black">
+        <p>© 2018 Cuppon Latam .Todos los derechos reservados.</p>
+      </div>  
+    </footer>
 </body>
 </html>
