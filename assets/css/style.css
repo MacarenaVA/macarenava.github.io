@@ -38,6 +38,10 @@ header {
 .container {
     color: var(--apricot);
 }
-section {
+.about {
 background-color: var(--natural);
+color: var(--graphite);
+box-sizing: inherit;
 }
+
+
