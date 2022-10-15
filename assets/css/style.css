@@ -1,0 +1,33 @@
+:root {
+    --pink: #e2b8ac;
+    --olive: #919f89;
+    --light-blue: #cddad8;
+    --grey-blue: #98a7ac;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+nav {
+    background-color: var(--olive);
+}
+
+.navbar-brand {
+    width: 5.375rem;
+}
+
+.navbar-toggler {
+    width: 3.688rem;
+}
+
+img {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.nav-link {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
