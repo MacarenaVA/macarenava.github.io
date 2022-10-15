@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: var(--natural);
+    background-color: var(--graphite);
 }
 
 .navbar-brand {
@@ -74,5 +74,14 @@ button {
     font-weight: 400;
     font-size: 1rem;
     color: var(--apricot);
+}
+footer {
+    background-color: var(--graphite);
+    text-align: center;
+}
+
+footer .container p{
+    color:var(--apricot);
+    font-size: smaller;
 }
 
