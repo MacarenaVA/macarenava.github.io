@@ -1,8 +1,8 @@
 :root {
-    --pink: #e2b8ac;
-    --olive: #919f89;
-    --light-blue: #cddad8;
-    --grey-blue: #98a7ac;
+    --warm-ivory: #ffefcd;
+    --natural: #a58e74;
+    --apricot: #e09132;
+    --fern: #424530;
 }
 
 body {
@@ -30,4 +30,8 @@ img {
 .nav-link {
     margin-left: 3rem;
     margin-right: 3rem;
+}
+main {
+    background-color: var(--light-blue);
+    color: rgb(3, 29, 52);
 }
