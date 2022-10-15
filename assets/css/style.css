@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: var(--warm-ivory);
+    background-color: var(--natural);
 }
 
 .navbar-brand {
@@ -33,15 +33,46 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 70rem;
 }
 
 .container {
-    color: var(--apricot);
+    color: var(--warm-ivory);
 }
 .about {
-background-color: var(--natural);
 color: var(--graphite);
 box-sizing: inherit;
 }
+.card-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: var(--warm-ivory);
+}
 
+.card-body{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    background-color: var(--graphite);
+}
+.text {
+    color: var(--apricot);
+}
+
+.contact {
+    background-color: var(--natural);
+}
+
+.conteiner {
+    color: var(--graphite);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+button {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--apricot);
+}
 
